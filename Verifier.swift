@@ -21,7 +21,7 @@ struct AggregateVerifier: Hashable, Codable {
 }
 
 func getVerifierJwtParams(_ verifier: Verifier) -> [String:String] {
-    switch(verifier.typeOfLogin) {
+    switch verifier.typeOfLogin {
     case "apple", "github", "linkedin", "twitter", "line", "Username-Password-Authentication":
         return ["domain": data.proxyDomain]
     case "jwt":

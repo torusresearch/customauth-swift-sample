@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F0367565275A2BBD00079EA3 /* JWTDecode in Frameworks */ = {isa = PBXBuildFile; productRef = F0367564275A2BBD00079EA3 /* JWTDecode */; };
 		F0944F762759ECCE00EBFA17 /* Auth.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0944F752759ECCE00EBFA17 /* Auth.plist */; };
 		F0944F782759EE3000EBFA17 /* Verifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0944F772759EE3000EBFA17 /* Verifier.swift */; };
 		F0944F7A2759EECB00EBFA17 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0944F792759EECB00EBFA17 /* Data.swift */; };
@@ -35,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0367565275A2BBD00079EA3 /* JWTDecode in Frameworks */,
 				F0E05C76275789C800E6C19A /* CustomAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -92,6 +94,7 @@
 			name = "CustomAuth Sample";
 			packageProductDependencies = (
 				F0E05C75275789C800E6C19A /* CustomAuth */,
+				F0367564275A2BBD00079EA3 /* JWTDecode */,
 			);
 			productName = "CustomAuth Sample";
 			productReference = F0E05C63275786B200E6C19A /* CustomAuth Sample.app */;
@@ -123,6 +126,7 @@
 			mainGroup = F0E05C5A275786B200E6C19A;
 			packageReferences = (
 				F0E05C74275789C800E6C19A /* XCRemoteSwiftPackageReference "customauth-swift-sdk" */,
+				F0367563275A2BBD00079EA3 /* XCRemoteSwiftPackageReference "JWTDecode" */,
 			);
 			productRefGroup = F0E05C64275786B200E6C19A /* Products */;
 			projectDirPath = "";
@@ -282,6 +286,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "CustomAuth Sample.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
@@ -312,6 +317,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "CustomAuth SampleRelease.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
@@ -361,6 +367,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		F0367563275A2BBD00079EA3 /* XCRemoteSwiftPackageReference "JWTDecode" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/auth0/JWTDecode.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
 		F0E05C74275789C800E6C19A /* XCRemoteSwiftPackageReference "customauth-swift-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/torusresearch/customauth-swift-sdk";
@@ -372,6 +386,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		F0367564275A2BBD00079EA3 /* JWTDecode */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F0367563275A2BBD00079EA3 /* XCRemoteSwiftPackageReference "JWTDecode" */;
+			productName = JWTDecode;
+		};
 		F0E05C75275789C800E6C19A /* CustomAuth */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = F0E05C74275789C800E6C19A /* XCRemoteSwiftPackageReference "customauth-swift-sdk" */;

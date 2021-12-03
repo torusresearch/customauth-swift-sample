@@ -13,6 +13,7 @@ struct AppData: Hashable, Codable {
     var proxyDomain: String
     var verifiers: [Verifier]
     var aggregateVerifier: AggregateVerifier
+    var appleVerifier: String
 }
 
 var data: AppData = loadPropertylist("Auth")

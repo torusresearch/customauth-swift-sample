@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import AuthenticationServices
+import JWTDecode
 import CustomAuth
 
 struct LoginResult {
@@ -61,6 +63,22 @@ struct ContentView: View {
                     }
                 }
                 
+                Section(header: Text("Native login")) {
+                    Text("This example demonstrates native Apple login using getTorusKey. You can implement any sort of login similarly using either getTorusKey or getAggregateTorusKey. See docs.tor.us for details.")
+                        .font(.footnote)
+                        .padding(.vertical, 8)
+                    
+                    SignInWithAppleButton(.signIn) { request in
+                        request.requestedScopes = [.email, .fullName]
+                    } onCompletion: {                       switch $0 {
+                    case .success(let result):
+                        appleLogin(result)
+                    case .failure(let error):
+                        print(error)
+                    }
+                    }.signInWithAppleButtonStyle(.white)
+                }
+                
             } .navigationBarTitle("CustomAuth Sample")
         }
     }
@@ -93,6 +111,7 @@ struct ContentView: View {
                 print(data)
             }.catch { err in
                 showResult = false
+                print(err)
             }
     }
     
@@ -129,6 +148,46 @@ struct ContentView: View {
                 print(data)
             }.catch { err in
                 showResult = false
+                print(err)
+            }
+    }
+    
+    func appleLogin(_ result: ASAuthorization) {
+        guard let cred = result.credential as? ASAuthorizationAppleIDCredential else {
+            print("Unknown ASAuthorization \(result)")
+            return
+        }
+        
+        let idToken = String(data: cred.identityToken!, encoding: .utf8)!
+        let jwt = try? JWTDecode.decode(jwt: idToken)
+        
+        guard let sub = jwt?.claim(name: "sub").string else {
+            print("Missing ID Token/sub")
+            return
+        }
+        
+        self.result = nil
+        self.showResult = true
+        
+        let customAuth = CustomAuth(
+            aggregateVerifierType: .singleLogin,
+            aggregateVerifierName: data.appleVerifier,
+            subVerifierDetails: [],
+            network: .ROPSTEN)
+        
+        customAuth.getTorusKey(
+            verifier: data.appleVerifier,
+            verifierId: sub,
+            idToken: idToken)
+            .done{ data in
+                self.result = LoginResult(
+                    privateKey: data["privateKey"] as! String,
+                    publicAddress: data["publicAddress"] as! String
+                )
+                print(data)
+            }.catch{ err in
+                self.showResult = false
+                print(err)
             }
     }
 }
