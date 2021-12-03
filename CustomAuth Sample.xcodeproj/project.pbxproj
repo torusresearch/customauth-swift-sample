@@ -22,6 +22,7 @@
 		F0944F772759EE3000EBFA17 /* Verifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verifier.swift; sourceTree = "<group>"; };
 		F0944F792759EECB00EBFA17 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		F0944F7B2759F74F00EBFA17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
+		F0C59A15275A168000B20FBD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F0E05C63275786B200E6C19A /* CustomAuth Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CustomAuth Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0E05C66275786B200E6C19A /* MainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainApp.swift; sourceTree = "<group>"; };
 		F0E05C68275786B200E6C19A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; wrapsLines = 0; };
@@ -45,6 +46,7 @@
 			isa = PBXGroup;
 			children = (
 				F0E05C65275786B200E6C19A /* CustomAuth Sample */,
+				F0C59A15275A168000B20FBD /* README.md */,
 				F0E05C64275786B200E6C19A /* Products */,
 			);
 			sourceTree = "<group>";
