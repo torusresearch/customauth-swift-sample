@@ -45,7 +45,14 @@
 		F0E05C5A275786B200E6C19A = {
 			isa = PBXGroup;
 			children = (
-				F0E05C65275786B200E6C19A /* CustomAuth Sample */,
+				F0E05C66275786B200E6C19A /* MainApp.swift */,
+				F0E05C68275786B200E6C19A /* ContentView.swift */,
+				F0944F772759EE3000EBFA17 /* Verifier.swift */,
+				F0944F792759EECB00EBFA17 /* Data.swift */,
+				F0944F7B2759F74F00EBFA17 /* Info.plist */,
+				F0944F752759ECCE00EBFA17 /* Auth.plist */,
+				F0E05C6A275786B300E6C19A /* Assets.xcassets */,
+				F0E05C6C275786B300E6C19A /* Preview Content */,
 				F0C59A15275A168000B20FBD /* README.md */,
 				F0E05C64275786B200E6C19A /* Products */,
 			);
@@ -57,21 +64,6 @@
 				F0E05C63275786B200E6C19A /* CustomAuth Sample.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		F0E05C65275786B200E6C19A /* CustomAuth Sample */ = {
-			isa = PBXGroup;
-			children = (
-				F0E05C66275786B200E6C19A /* MainApp.swift */,
-				F0E05C68275786B200E6C19A /* ContentView.swift */,
-				F0944F772759EE3000EBFA17 /* Verifier.swift */,
-				F0944F792759EECB00EBFA17 /* Data.swift */,
-				F0944F7B2759F74F00EBFA17 /* Info.plist */,
-				F0944F752759ECCE00EBFA17 /* Auth.plist */,
-				F0E05C6A275786B300E6C19A /* Assets.xcassets */,
-				F0E05C6C275786B300E6C19A /* Preview Content */,
-			);
-			path = "CustomAuth Sample";
 			sourceTree = "<group>";
 		};
 		F0E05C6C275786B300E6C19A /* Preview Content */ = {
@@ -292,7 +284,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CustomAuth Sample/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
 				DEVELOPMENT_TEAM = 2Q63NCPY55;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -322,7 +314,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CustomAuth Sample/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
 				DEVELOPMENT_TEAM = 2Q63NCPY55;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
