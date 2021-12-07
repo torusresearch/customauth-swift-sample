@@ -132,6 +132,6 @@
 		</array>
 	</dict>
 	<key>appleVerifier</key>
-	<string>apple-native</string>
+	<string>customauth-sample-apple-native</string>
 </dict>
 </plist>
