@@ -27,7 +27,18 @@ func getVerifierJwtParams(_ verifier: Verifier) -> [String:String] {
     case "jwt":
         return [
             "domain": data.proxyDomain,
-            "verifierIdField": "name"
+            "isVerifierIdCaseSensitive": "false"
+        ]
+    default:
+        return [:]
+    }
+}
+
+func getVerifierExtraQueryParams(_ verifier: Verifier) -> [String:String] {
+    switch verifier.typeOfLogin {
+    case "jwt":
+        return [
+            "verifier_id_field": "name"
         ]
     default:
         return [:]

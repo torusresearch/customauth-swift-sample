@@ -94,6 +94,7 @@ struct ContentView: View {
                 verifierName: verifier.verifier,
                 redirectURL: data.redirectUri,
                 browserRedirectURL: data.browserRedirectUri,
+                extraQueryParams: getVerifierExtraQueryParams(verifier),
                 jwtParams: getVerifierJwtParams(verifier)
             )],
             network: .ROPSTEN
@@ -125,6 +126,7 @@ struct ContentView: View {
                 verifierName: verifier.verifier,
                 redirectURL: data.redirectUri,
                 browserRedirectURL: data.browserRedirectUri,
+                extraQueryParams: getVerifierExtraQueryParams(verifier),
                 jwtParams: getVerifierJwtParams(verifier)
             ))
         }
