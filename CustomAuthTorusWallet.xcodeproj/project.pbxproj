@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCCBA0092951866F005A5402 /* CustomAuthTorusWalletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA0082951866F005A5402 /* CustomAuthTorusWalletApp.swift */; };
+		FCCBA00B2951866F005A5402 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA00A2951866F005A5402 /* ContentView.swift */; };
+		FCCBA00D29518670005A5402 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCCBA00C29518670005A5402 /* Assets.xcassets */; };
+		FCCBA01029518670005A5402 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCCBA00F29518670005A5402 /* Preview Assets.xcassets */; };
+		FCCBA01A29518670005A5402 /* CustomAuthTorusWalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA01929518670005A5402 /* CustomAuthTorusWalletTests.swift */; };
+		FCCBA02429518670005A5402 /* CustomAuthTorusWalletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA02329518670005A5402 /* CustomAuthTorusWalletUITests.swift */; };
+		FCCBA02629518670005A5402 /* CustomAuthTorusWalletUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA02529518670005A5402 /* CustomAuthTorusWalletUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCCBA01629518670005A5402 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCCB9FFD2951866F005A5402 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCCBA0042951866F005A5402;
+			remoteInfo = CustomAuthTorusWallet;
+		};
+		FCCBA02029518670005A5402 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCCB9FFD2951866F005A5402 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCCBA0042951866F005A5402;
+			remoteInfo = CustomAuthTorusWallet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCCBA0052951866F005A5402 /* CustomAuthTorusWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomAuthTorusWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCCBA0082951866F005A5402 /* CustomAuthTorusWalletApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAuthTorusWalletApp.swift; sourceTree = "<group>"; };
+		FCCBA00A2951866F005A5402 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FCCBA00C29518670005A5402 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCCBA00F29518670005A5402 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FCCBA01529518670005A5402 /* CustomAuthTorusWalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomAuthTorusWalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCCBA01929518670005A5402 /* CustomAuthTorusWalletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAuthTorusWalletTests.swift; sourceTree = "<group>"; };
+		FCCBA01F29518670005A5402 /* CustomAuthTorusWalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomAuthTorusWalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCCBA02329518670005A5402 /* CustomAuthTorusWalletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAuthTorusWalletUITests.swift; sourceTree = "<group>"; };
+		FCCBA02529518670005A5402 /* CustomAuthTorusWalletUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAuthTorusWalletUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCCBA0022951866F005A5402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCCBA01229518670005A5402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCCBA01C29518670005A5402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCCB9FFC2951866F005A5402 = {
+			isa = PBXGroup;
+			children = (
+				FCCBA0072951866F005A5402 /* CustomAuthTorusWallet */,
+				FCCBA01829518670005A5402 /* CustomAuthTorusWalletTests */,
+				FCCBA02229518670005A5402 /* CustomAuthTorusWalletUITests */,
+				FCCBA0062951866F005A5402 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCCBA0062951866F005A5402 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCCBA0052951866F005A5402 /* CustomAuthTorusWallet.app */,
+				FCCBA01529518670005A5402 /* CustomAuthTorusWalletTests.xctest */,
+				FCCBA01F29518670005A5402 /* CustomAuthTorusWalletUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCCBA0072951866F005A5402 /* CustomAuthTorusWallet */ = {
+			isa = PBXGroup;
+			children = (
+				FCCBA0082951866F005A5402 /* CustomAuthTorusWalletApp.swift */,
+				FCCBA00A2951866F005A5402 /* ContentView.swift */,
+				FCCBA00C29518670005A5402 /* Assets.xcassets */,
+				FCCBA00E29518670005A5402 /* Preview Content */,
+			);
+			path = CustomAuthTorusWallet;
+			sourceTree = "<group>";
+		};
+		FCCBA00E29518670005A5402 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FCCBA00F29518670005A5402 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FCCBA01829518670005A5402 /* CustomAuthTorusWalletTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCCBA01929518670005A5402 /* CustomAuthTorusWalletTests.swift */,
+			);
+			path = CustomAuthTorusWalletTests;
+			sourceTree = "<group>";
+		};
+		FCCBA02229518670005A5402 /* CustomAuthTorusWalletUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCCBA02329518670005A5402 /* CustomAuthTorusWalletUITests.swift */,
+				FCCBA02529518670005A5402 /* CustomAuthTorusWalletUITestsLaunchTests.swift */,
+			);
+			path = CustomAuthTorusWalletUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCCBA0042951866F005A5402 /* CustomAuthTorusWallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCCBA02929518670005A5402 /* Build configuration list for PBXNativeTarget "CustomAuthTorusWallet" */;
+			buildPhases = (
+				FCCBA0012951866F005A5402 /* Sources */,
+				FCCBA0022951866F005A5402 /* Frameworks */,
+				FCCBA0032951866F005A5402 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomAuthTorusWallet;
+			productName = CustomAuthTorusWallet;
+			productReference = FCCBA0052951866F005A5402 /* CustomAuthTorusWallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCCBA01429518670005A5402 /* CustomAuthTorusWalletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCCBA02C29518670005A5402 /* Build configuration list for PBXNativeTarget "CustomAuthTorusWalletTests" */;
+			buildPhases = (
+				FCCBA01129518670005A5402 /* Sources */,
+				FCCBA01229518670005A5402 /* Frameworks */,
+				FCCBA01329518670005A5402 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCCBA01729518670005A5402 /* PBXTargetDependency */,
+			);
+			name = CustomAuthTorusWalletTests;
+			productName = CustomAuthTorusWalletTests;
+			productReference = FCCBA01529518670005A5402 /* CustomAuthTorusWalletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCCBA01E29518670005A5402 /* CustomAuthTorusWalletUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCCBA02F29518670005A5402 /* Build configuration list for PBXNativeTarget "CustomAuthTorusWalletUITests" */;
+			buildPhases = (
+				FCCBA01B29518670005A5402 /* Sources */,
+				FCCBA01C29518670005A5402 /* Frameworks */,
+				FCCBA01D29518670005A5402 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCCBA02129518670005A5402 /* PBXTargetDependency */,
+			);
+			name = CustomAuthTorusWalletUITests;
+			productName = CustomAuthTorusWalletUITests;
+			productReference = FCCBA01F29518670005A5402 /* CustomAuthTorusWalletUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCCB9FFD2951866F005A5402 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					FCCBA0042951866F005A5402 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					FCCBA01429518670005A5402 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FCCBA0042951866F005A5402;
+					};
+					FCCBA01E29518670005A5402 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FCCBA0042951866F005A5402;
+					};
+				};
+			};
+			buildConfigurationList = FCCBA0002951866F005A5402 /* Build configuration list for PBXProject "CustomAuthTorusWallet" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCCB9FFC2951866F005A5402;
+			productRefGroup = FCCBA0062951866F005A5402 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCCBA0042951866F005A5402 /* CustomAuthTorusWallet */,
+				FCCBA01429518670005A5402 /* CustomAuthTorusWalletTests */,
+				FCCBA01E29518670005A5402 /* CustomAuthTorusWalletUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCCBA0032951866F005A5402 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCCBA01029518670005A5402 /* Preview Assets.xcassets in Resources */,
+				FCCBA00D29518670005A5402 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCCBA01329518670005A5402 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCCBA01D29518670005A5402 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCCBA0012951866F005A5402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCCBA00B2951866F005A5402 /* ContentView.swift in Sources */,
+				FCCBA0092951866F005A5402 /* CustomAuthTorusWalletApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCCBA01129518670005A5402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCCBA01A29518670005A5402 /* CustomAuthTorusWalletTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCCBA01B29518670005A5402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCCBA02629518670005A5402 /* CustomAuthTorusWalletUITestsLaunchTests.swift in Sources */,
+				FCCBA02429518670005A5402 /* CustomAuthTorusWalletUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCCBA01729518670005A5402 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCCBA0042951866F005A5402 /* CustomAuthTorusWallet */;
+			targetProxy = FCCBA01629518670005A5402 /* PBXContainerItemProxy */;
+		};
+		FCCBA02129518670005A5402 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCCBA0042951866F005A5402 /* CustomAuthTorusWallet */;
+			targetProxy = FCCBA02029518670005A5402 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FCCBA02729518670005A5402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCCBA02829518670005A5402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCCBA02A29518670005A5402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CustomAuthTorusWallet/Preview Content\"";
+				DEVELOPMENT_TEAM = 2Q63NCPY55;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Web3Auth.CustomAuthTorusWallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCCBA02B29518670005A5402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CustomAuthTorusWallet/Preview Content\"";
+				DEVELOPMENT_TEAM = 2Q63NCPY55;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Web3Auth.CustomAuthTorusWallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FCCBA02D29518670005A5402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2Q63NCPY55;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Web3Auth.CustomAuthTorusWalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomAuthTorusWallet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CustomAuthTorusWallet";
+			};
+			name = Debug;
+		};
+		FCCBA02E29518670005A5402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2Q63NCPY55;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Web3Auth.CustomAuthTorusWalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomAuthTorusWallet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CustomAuthTorusWallet";
+			};
+			name = Release;
+		};
+		FCCBA03029518670005A5402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2Q63NCPY55;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Web3Auth.CustomAuthTorusWalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomAuthTorusWallet;
+			};
+			name = Debug;
+		};
+		FCCBA03129518670005A5402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2Q63NCPY55;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Web3Auth.CustomAuthTorusWalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomAuthTorusWallet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCCBA0002951866F005A5402 /* Build configuration list for PBXProject "CustomAuthTorusWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCCBA02729518670005A5402 /* Debug */,
+				FCCBA02829518670005A5402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCCBA02929518670005A5402 /* Build configuration list for PBXNativeTarget "CustomAuthTorusWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCCBA02A29518670005A5402 /* Debug */,
+				FCCBA02B29518670005A5402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCCBA02C29518670005A5402 /* Build configuration list for PBXNativeTarget "CustomAuthTorusWalletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCCBA02D29518670005A5402 /* Debug */,
+				FCCBA02E29518670005A5402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCCBA02F29518670005A5402 /* Build configuration list for PBXNativeTarget "CustomAuthTorusWalletUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCCBA03029518670005A5402 /* Debug */,
+				FCCBA03129518670005A5402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCCB9FFD2951866F005A5402 /* Project object */;
+}
