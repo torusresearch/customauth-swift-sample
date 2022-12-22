@@ -1,14 +1,14 @@
 //
-//  CustomAuthTorusWalletApp.swift
-//  CustomAuthTorusWallet
+//  Torus_WalletApp.swift
+//  Torus Wallet
 //
-//  Created by Dhruv Jaiswal on 20/12/22.
+//  Created by Dhruv Jaiswal on 19/11/22.
 //
 
 import SwiftUI
 
 @main
-struct CustomAuthTorusWalletApp: App {
+struct Torus_WalletApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

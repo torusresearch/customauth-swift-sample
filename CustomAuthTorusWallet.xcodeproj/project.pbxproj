@@ -7,13 +7,89 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FCCBA0092951866F005A5402 /* CustomAuthTorusWalletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA0082951866F005A5402 /* CustomAuthTorusWalletApp.swift */; };
-		FCCBA00B2951866F005A5402 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA00A2951866F005A5402 /* ContentView.swift */; };
-		FCCBA00D29518670005A5402 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCCBA00C29518670005A5402 /* Assets.xcassets */; };
+		FC37DDD129532F6800E935FF /* TorusEd25519Key in Frameworks */ = {isa = PBXBuildFile; productRef = FC37DDD029532F6800E935FF /* TorusEd25519Key */; };
 		FCCBA01029518670005A5402 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCCBA00F29518670005A5402 /* Preview Assets.xcassets */; };
 		FCCBA01A29518670005A5402 /* CustomAuthTorusWalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA01929518670005A5402 /* CustomAuthTorusWalletTests.swift */; };
 		FCCBA02429518670005A5402 /* CustomAuthTorusWalletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA02329518670005A5402 /* CustomAuthTorusWalletUITests.swift */; };
 		FCCBA02629518670005A5402 /* CustomAuthTorusWalletUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA02529518670005A5402 /* CustomAuthTorusWalletUITestsLaunchTests.swift */; };
+		FCCBA08B295186D8005A5402 /* DMSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCCBA034295186D7005A5402 /* DMSans-Regular.ttf */; };
+		FCCBA08C295186D8005A5402 /* DMSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCCBA035295186D7005A5402 /* DMSans-Medium.ttf */; };
+		FCCBA08D295186D8005A5402 /* DMSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCCBA036295186D7005A5402 /* DMSans-Bold.ttf */; };
+		FCCBA08E295186D8005A5402 /* DMSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCCBA037295186D7005A5402 /* DMSans-BoldItalic.ttf */; };
+		FCCBA08F295186D8005A5402 /* DMSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCCBA038295186D7005A5402 /* DMSans-MediumItalic.ttf */; };
+		FCCBA090295186D8005A5402 /* DMSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCCBA039295186D7005A5402 /* DMSans-Italic.ttf */; };
+		FCCBA091295186D8005A5402 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCCBA03B295186D7005A5402 /* Poppins-ExtraLight.ttf */; };
+		FCCBA092295186D8005A5402 /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCCBA03C295186D7005A5402 /* Poppins-ThinItalic.ttf */; };
+		FCCBA093295186D8005A5402 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCCBA03D295186D7005A5402 /* Poppins-ExtraLightItalic.ttf */; };
+		FCCBA094295186D8005A5402 /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCCBA03E295186D7005A5402 /* Poppins-BoldItalic.ttf */; };
+		FCCBA095295186D8005A5402 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCCBA03F295186D7005A5402 /* Poppins-Light.ttf */; };
+		FCCBA096295186D8005A5402 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCCBA040295186D7005A5402 /* Poppins-Medium.ttf */; };
+		FCCBA097295186D8005A5402 /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCCBA041295186D7005A5402 /* Poppins-SemiBoldItalic.ttf */; };
+		FCCBA098295186D8005A5402 /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCCBA042295186D7005A5402 /* Poppins-ExtraBoldItalic.ttf */; };
+		FCCBA099295186D8005A5402 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCCBA043295186D7005A5402 /* Poppins-ExtraBold.ttf */; };
+		FCCBA09A295186D8005A5402 /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCCBA044295186D7005A5402 /* Poppins-BlackItalic.ttf */; };
+		FCCBA09B295186D8005A5402 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = FCCBA045295186D7005A5402 /* OFL.txt */; };
+		FCCBA09C295186D8005A5402 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCCBA046295186D7005A5402 /* Poppins-Regular.ttf */; };
+		FCCBA09D295186D8005A5402 /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCCBA047295186D7005A5402 /* Poppins-LightItalic.ttf */; };
+		FCCBA09E295186D8005A5402 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCCBA048295186D7005A5402 /* Poppins-Bold.ttf */; };
+		FCCBA09F295186D8005A5402 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCCBA049295186D7005A5402 /* Poppins-Black.ttf */; };
+		FCCBA0A0295186D8005A5402 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCCBA04A295186D7005A5402 /* Poppins-Thin.ttf */; };
+		FCCBA0A1295186D8005A5402 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCCBA04B295186D7005A5402 /* Poppins-SemiBold.ttf */; };
+		FCCBA0A2295186D8005A5402 /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCCBA04C295186D7005A5402 /* Poppins-Italic.ttf */; };
+		FCCBA0A3295186D8005A5402 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCCBA04D295186D7005A5402 /* Poppins-MediumItalic.ttf */; };
+		FCCBA0A4295186D8005A5402 /* BlockchainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA050295186D7005A5402 /* BlockchainManager.swift */; };
+		FCCBA0A5295186D8005A5402 /* EthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA051295186D7005A5402 /* EthManager.swift */; };
+		FCCBA0A6295186D8005A5402 /* SolManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA052295186D7005A5402 /* SolManager.swift */; };
+		FCCBA0A7295186D8005A5402 /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA054295186D7005A5402 /* KeychainManager.swift */; };
+		FCCBA0A8295186D8005A5402 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA055295186D7005A5402 /* UserDefaultsManager.swift */; };
+		FCCBA0A9295186D8005A5402 /* CustomAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA057295186D7005A5402 /* CustomAuthManager.swift */; };
+		FCCBA0AA295186D8005A5402 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA058295186D7005A5402 /* AuthManager.swift */; };
+		FCCBA0AB295186D8005A5402 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA05A295186D7005A5402 /* Constants.swift */; };
+		FCCBA0AC295186D8005A5402 /* TorusWeb3Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA05B295186D7005A5402 /* TorusWeb3Utils.swift */; };
+		FCCBA0AD295186D8005A5402 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA05C295186D7005A5402 /* Error.swift */; };
+		FCCBA0AE295186D8005A5402 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA05D295186D7005A5402 /* Extensions.swift */; };
+		FCCBA0AF295186D8005A5402 /* SolanaAccountAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA05E295186D7005A5402 /* SolanaAccountAuthenticator.swift */; };
+		FCCBA0B0295186D8005A5402 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA060295186D7005A5402 /* NetworkHelper.swift */; };
+		FCCBA0B1295186D8005A5402 /* NetworkingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA061295186D7005A5402 /* NetworkingClient.swift */; };
+		FCCBA0B2295186D8005A5402 /* CustomAuthTorusWalletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA062295186D7005A5402 /* CustomAuthTorusWalletApp.swift */; };
+		FCCBA0B3295186D8005A5402 /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA064295186D7005A5402 /* TransactionModel.swift */; };
+		FCCBA0B4295186D8005A5402 /* BlockchainEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA065295186D7005A5402 /* BlockchainEnum.swift */; };
+		FCCBA0B5295186D8005A5402 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA066295186D7005A5402 /* UserModel.swift */; };
+		FCCBA0B6295186D8005A5402 /* ConfigDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA067295186D7005A5402 /* ConfigDataModel.swift */; };
+		FCCBA0B7295186D8005A5402 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCCBA069295186D7005A5402 /* Preview Assets.xcassets */; };
+		FCCBA0B8295186D8005A5402 /* BlockchainManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA06B295186D7005A5402 /* BlockchainManagerProtocol.swift */; };
+		FCCBA0B9295186D8005A5402 /* AuthManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA06C295186D7005A5402 /* AuthManagerProtocol.swift */; };
+		FCCBA0BA295186D8005A5402 /* BlockChainProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA06D295186D7005A5402 /* BlockChainProtocol.swift */; };
+		FCCBA0BB295186D8005A5402 /* TransferAssetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA070295186D7005A5402 /* TransferAssetView.swift */; };
+		FCCBA0BC295186D8005A5402 /* ConfirmTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA071295186D7005A5402 /* ConfirmTransactionView.swift */; };
+		FCCBA0BD295186D8005A5402 /* TransferAssetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA072295186D7005A5402 /* TransferAssetViewModel.swift */; };
+		FCCBA0BE295186D8005A5402 /* TransactionDoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA073295186D7005A5402 /* TransactionDoneView.swift */; };
+		FCCBA0BF295186D8005A5402 /* MaxTransactionFeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA074295186D7005A5402 /* MaxTransactionFeeView.swift */; };
+		FCCBA0C0295186D8005A5402 /* SettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA076295186D7005A5402 /* SettingViewModel.swift */; };
+		FCCBA0C1295186D8005A5402 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA077295186D7005A5402 /* SettingView.swift */; };
+		FCCBA0C2295186D8005A5402 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA079295186D7005A5402 /* HomeViewModel.swift */; };
+		FCCBA0C3295186D8005A5402 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA07A295186D7005A5402 /* HomeView.swift */; };
+		FCCBA0C4295186D8005A5402 /* HapticGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA07C295186D7005A5402 /* HapticGenerator.swift */; };
+		FCCBA0C5295186D8005A5402 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA07D295186D7005A5402 /* CustomButton.swift */; };
+		FCCBA0C6295186D8005A5402 /* HelperViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA07E295186D7005A5402 /* HelperViews.swift */; };
+		FCCBA0C7295186D8005A5402 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA07F295186D7005A5402 /* LottieView.swift */; };
+		FCCBA0C8295186D8005A5402 /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA080295186D7005A5402 /* PopUpView.swift */; };
+		FCCBA0C9295186D8005A5402 /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA081295186D7005A5402 /* QRCodeView.swift */; };
+		FCCBA0CA295186D8005A5402 /* UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA082295186D7005A5402 /* UITextView.swift */; };
+		FCCBA0CB295186D8005A5402 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA083295186D7005A5402 /* ContentView.swift */; };
+		FCCBA0CC295186D8005A5402 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA084295186D7005A5402 /* LoadingView.swift */; };
+		FCCBA0CD295186D8005A5402 /* LoginHomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA086295186D7005A5402 /* LoginHomePageView.swift */; };
+		FCCBA0CE295186D8005A5402 /* LoginMethodSelectionPageVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA087295186D7005A5402 /* LoginMethodSelectionPageVM.swift */; };
+		FCCBA0CF295186D8005A5402 /* LoginMethodSelectionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA088295186D7005A5402 /* LoginMethodSelectionPage.swift */; };
+		FCCBA0D0295186D8005A5402 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCCBA089295186D8005A5402 /* Color.xcassets */; };
+		FCCBA0D1295186D8005A5402 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCCBA08A295186D8005A5402 /* Launch Screen.storyboard */; };
+		FCCBA0D329518727005A5402 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCCBA0D229518727005A5402 /* Assets.xcassets */; };
+		FCCBA0D6295187A1005A5402 /* CustomAuth in Frameworks */ = {isa = PBXBuildFile; productRef = FCCBA0D5295187A1005A5402 /* CustomAuth */; };
+		FCCBA0DC295187D3005A5402 /* web3.swift in Frameworks */ = {isa = PBXBuildFile; productRef = FCCBA0DB295187D3005A5402 /* web3.swift */; };
+		FCCBA0DF295187EB005A5402 /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FCCBA0DE295187EB005A5402 /* KeychainSwift */; };
+		FCCBA0E229518801005A5402 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = FCCBA0E129518801005A5402 /* CodeScanner */; };
+		FCCBA0E52951881F005A5402 /* TweetNacl in Frameworks */ = {isa = PBXBuildFile; productRef = FCCBA0E42951881F005A5402 /* TweetNacl */; };
+		FCCBA0E829518842005A5402 /* Solana in Frameworks */ = {isa = PBXBuildFile; productRef = FCCBA0E729518842005A5402 /* Solana */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +110,86 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC37DDCE2952E7CF00E935FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		FCCBA0052951866F005A5402 /* CustomAuthTorusWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomAuthTorusWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCCBA0082951866F005A5402 /* CustomAuthTorusWalletApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAuthTorusWalletApp.swift; sourceTree = "<group>"; };
-		FCCBA00A2951866F005A5402 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		FCCBA00C29518670005A5402 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCCBA00F29518670005A5402 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FCCBA01529518670005A5402 /* CustomAuthTorusWalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomAuthTorusWalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCCBA01929518670005A5402 /* CustomAuthTorusWalletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAuthTorusWalletTests.swift; sourceTree = "<group>"; };
 		FCCBA01F29518670005A5402 /* CustomAuthTorusWalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomAuthTorusWalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCCBA02329518670005A5402 /* CustomAuthTorusWalletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAuthTorusWalletUITests.swift; sourceTree = "<group>"; };
 		FCCBA02529518670005A5402 /* CustomAuthTorusWalletUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAuthTorusWalletUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FCCBA034295186D7005A5402 /* DMSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-Regular.ttf"; sourceTree = "<group>"; };
+		FCCBA035295186D7005A5402 /* DMSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-Medium.ttf"; sourceTree = "<group>"; };
+		FCCBA036295186D7005A5402 /* DMSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-Bold.ttf"; sourceTree = "<group>"; };
+		FCCBA037295186D7005A5402 /* DMSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		FCCBA038295186D7005A5402 /* DMSans-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-MediumItalic.ttf"; sourceTree = "<group>"; };
+		FCCBA039295186D7005A5402 /* DMSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-Italic.ttf"; sourceTree = "<group>"; };
+		FCCBA03B295186D7005A5402 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		FCCBA03C295186D7005A5402 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		FCCBA03D295186D7005A5402 /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		FCCBA03E295186D7005A5402 /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		FCCBA03F295186D7005A5402 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		FCCBA040295186D7005A5402 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		FCCBA041295186D7005A5402 /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		FCCBA042295186D7005A5402 /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		FCCBA043295186D7005A5402 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		FCCBA044295186D7005A5402 /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		FCCBA045295186D7005A5402 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		FCCBA046295186D7005A5402 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		FCCBA047295186D7005A5402 /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		FCCBA048295186D7005A5402 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		FCCBA049295186D7005A5402 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		FCCBA04A295186D7005A5402 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		FCCBA04B295186D7005A5402 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		FCCBA04C295186D7005A5402 /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		FCCBA04D295186D7005A5402 /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		FCCBA050295186D7005A5402 /* BlockchainManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockchainManager.swift; sourceTree = "<group>"; };
+		FCCBA051295186D7005A5402 /* EthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EthManager.swift; sourceTree = "<group>"; };
+		FCCBA052295186D7005A5402 /* SolManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolManager.swift; sourceTree = "<group>"; };
+		FCCBA054295186D7005A5402 /* KeychainManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
+		FCCBA055295186D7005A5402 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		FCCBA057295186D7005A5402 /* CustomAuthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAuthManager.swift; sourceTree = "<group>"; };
+		FCCBA058295186D7005A5402 /* AuthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		FCCBA05A295186D7005A5402 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FCCBA05B295186D7005A5402 /* TorusWeb3Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TorusWeb3Utils.swift; sourceTree = "<group>"; };
+		FCCBA05C295186D7005A5402 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		FCCBA05D295186D7005A5402 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		FCCBA05E295186D7005A5402 /* SolanaAccountAuthenticator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolanaAccountAuthenticator.swift; sourceTree = "<group>"; };
+		FCCBA060295186D7005A5402 /* NetworkHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		FCCBA061295186D7005A5402 /* NetworkingClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingClient.swift; sourceTree = "<group>"; };
+		FCCBA062295186D7005A5402 /* CustomAuthTorusWalletApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAuthTorusWalletApp.swift; sourceTree = "<group>"; };
+		FCCBA064295186D7005A5402 /* TransactionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
+		FCCBA065295186D7005A5402 /* BlockchainEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockchainEnum.swift; sourceTree = "<group>"; };
+		FCCBA066295186D7005A5402 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		FCCBA067295186D7005A5402 /* ConfigDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigDataModel.swift; sourceTree = "<group>"; };
+		FCCBA069295186D7005A5402 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FCCBA06B295186D7005A5402 /* BlockchainManagerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockchainManagerProtocol.swift; sourceTree = "<group>"; };
+		FCCBA06C295186D7005A5402 /* AuthManagerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthManagerProtocol.swift; sourceTree = "<group>"; };
+		FCCBA06D295186D7005A5402 /* BlockChainProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockChainProtocol.swift; sourceTree = "<group>"; };
+		FCCBA070295186D7005A5402 /* TransferAssetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransferAssetView.swift; sourceTree = "<group>"; };
+		FCCBA071295186D7005A5402 /* ConfirmTransactionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmTransactionView.swift; sourceTree = "<group>"; };
+		FCCBA072295186D7005A5402 /* TransferAssetViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransferAssetViewModel.swift; sourceTree = "<group>"; };
+		FCCBA073295186D7005A5402 /* TransactionDoneView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionDoneView.swift; sourceTree = "<group>"; };
+		FCCBA074295186D7005A5402 /* MaxTransactionFeeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaxTransactionFeeView.swift; sourceTree = "<group>"; };
+		FCCBA076295186D7005A5402 /* SettingViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewModel.swift; sourceTree = "<group>"; };
+		FCCBA077295186D7005A5402 /* SettingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		FCCBA079295186D7005A5402 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		FCCBA07A295186D7005A5402 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FCCBA07C295186D7005A5402 /* HapticGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HapticGenerator.swift; sourceTree = "<group>"; };
+		FCCBA07D295186D7005A5402 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		FCCBA07E295186D7005A5402 /* HelperViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperViews.swift; sourceTree = "<group>"; };
+		FCCBA07F295186D7005A5402 /* LottieView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		FCCBA080295186D7005A5402 /* PopUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
+		FCCBA081295186D7005A5402 /* QRCodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeView.swift; sourceTree = "<group>"; };
+		FCCBA082295186D7005A5402 /* UITextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextView.swift; sourceTree = "<group>"; };
+		FCCBA083295186D7005A5402 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FCCBA084295186D7005A5402 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		FCCBA086295186D7005A5402 /* LoginHomePageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginHomePageView.swift; sourceTree = "<group>"; };
+		FCCBA087295186D7005A5402 /* LoginMethodSelectionPageVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginMethodSelectionPageVM.swift; sourceTree = "<group>"; };
+		FCCBA088295186D7005A5402 /* LoginMethodSelectionPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginMethodSelectionPage.swift; sourceTree = "<group>"; };
+		FCCBA089295186D8005A5402 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		FCCBA08A295186D8005A5402 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		FCCBA0D229518727005A5402 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +197,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCCBA0E229518801005A5402 /* CodeScanner in Frameworks */,
+				FCCBA0DF295187EB005A5402 /* KeychainSwift in Frameworks */,
+				FCCBA0E829518842005A5402 /* Solana in Frameworks */,
+				FC37DDD129532F6800E935FF /* TorusEd25519Key in Frameworks */,
+				FCCBA0DC295187D3005A5402 /* web3.swift in Frameworks */,
+				FCCBA0E52951881F005A5402 /* TweetNacl in Frameworks */,
+				FCCBA0D6295187A1005A5402 /* CustomAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,9 +247,19 @@
 		FCCBA0072951866F005A5402 /* CustomAuthTorusWallet */ = {
 			isa = PBXGroup;
 			children = (
-				FCCBA0082951866F005A5402 /* CustomAuthTorusWalletApp.swift */,
-				FCCBA00A2951866F005A5402 /* ContentView.swift */,
-				FCCBA00C29518670005A5402 /* Assets.xcassets */,
+				FC37DDCE2952E7CF00E935FF /* Info.plist */,
+				FCCBA0D229518727005A5402 /* Assets.xcassets */,
+				FCCBA089295186D8005A5402 /* Color.xcassets */,
+				FCCBA032295186D7005A5402 /* Fonts */,
+				FCCBA059295186D7005A5402 /* Helper */,
+				FCCBA08A295186D8005A5402 /* Launch Screen.storyboard */,
+				FCCBA04E295186D7005A5402 /* Managers */,
+				FCCBA063295186D7005A5402 /* Models */,
+				FCCBA05F295186D7005A5402 /* Networking */,
+				FCCBA068295186D7005A5402 /* Preview Content */,
+				FCCBA06A295186D7005A5402 /* Protocols */,
+				FCCBA062295186D7005A5402 /* CustomAuthTorusWalletApp.swift */,
+				FCCBA06E295186D7005A5402 /* Views */,
 				FCCBA00E29518670005A5402 /* Preview Content */,
 			);
 			path = CustomAuthTorusWallet;
@@ -127,6 +290,211 @@
 			path = CustomAuthTorusWalletUITests;
 			sourceTree = "<group>";
 		};
+		FCCBA032295186D7005A5402 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FCCBA033295186D7005A5402 /* DM_Sans */,
+				FCCBA03A295186D7005A5402 /* Poppins */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		FCCBA033295186D7005A5402 /* DM_Sans */ = {
+			isa = PBXGroup;
+			children = (
+				FCCBA034295186D7005A5402 /* DMSans-Regular.ttf */,
+				FCCBA035295186D7005A5402 /* DMSans-Medium.ttf */,
+				FCCBA036295186D7005A5402 /* DMSans-Bold.ttf */,
+				FCCBA037295186D7005A5402 /* DMSans-BoldItalic.ttf */,
+				FCCBA038295186D7005A5402 /* DMSans-MediumItalic.ttf */,
+				FCCBA039295186D7005A5402 /* DMSans-Italic.ttf */,
+			);
+			path = DM_Sans;
+			sourceTree = "<group>";
+		};
+		FCCBA03A295186D7005A5402 /* Poppins */ = {
+			isa = PBXGroup;
+			children = (
+				FCCBA03B295186D7005A5402 /* Poppins-ExtraLight.ttf */,
+				FCCBA03C295186D7005A5402 /* Poppins-ThinItalic.ttf */,
+				FCCBA03D295186D7005A5402 /* Poppins-ExtraLightItalic.ttf */,
+				FCCBA03E295186D7005A5402 /* Poppins-BoldItalic.ttf */,
+				FCCBA03F295186D7005A5402 /* Poppins-Light.ttf */,
+				FCCBA040295186D7005A5402 /* Poppins-Medium.ttf */,
+				FCCBA041295186D7005A5402 /* Poppins-SemiBoldItalic.ttf */,
+				FCCBA042295186D7005A5402 /* Poppins-ExtraBoldItalic.ttf */,
+				FCCBA043295186D7005A5402 /* Poppins-ExtraBold.ttf */,
+				FCCBA044295186D7005A5402 /* Poppins-BlackItalic.ttf */,
+				FCCBA045295186D7005A5402 /* OFL.txt */,
+				FCCBA046295186D7005A5402 /* Poppins-Regular.ttf */,
+				FCCBA047295186D7005A5402 /* Poppins-LightItalic.ttf */,
+				FCCBA048295186D7005A5402 /* Poppins-Bold.ttf */,
+				FCCBA049295186D7005A5402 /* Poppins-Black.ttf */,
+				FCCBA04A295186D7005A5402 /* Poppins-Thin.ttf */,
+				FCCBA04B295186D7005A5402 /* Poppins-SemiBold.ttf */,
+				FCCBA04C295186D7005A5402 /* Poppins-Italic.ttf */,
+				FCCBA04D295186D7005A5402 /* Poppins-MediumItalic.ttf */,
+			);
+			path = Poppins;
+			sourceTree = "<group>";
+		};
+		FCCBA04E295186D7005A5402 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				FCCBA04F295186D7005A5402 /* BlockchainManagers */,
+				FCCBA053295186D7005A5402 /* StorageManagers */,
+				FCCBA056295186D7005A5402 /* AuthManagers */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		FCCBA04F295186D7005A5402 /* BlockchainManagers */ = {
+			isa = PBXGroup;
+			children = (
+				FCCBA050295186D7005A5402 /* BlockchainManager.swift */,
+				FCCBA051295186D7005A5402 /* EthManager.swift */,
+				FCCBA052295186D7005A5402 /* SolManager.swift */,
+			);
+			path = BlockchainManagers;
+			sourceTree = "<group>";
+		};
+		FCCBA053295186D7005A5402 /* StorageManagers */ = {
+			isa = PBXGroup;
+			children = (
+				FCCBA054295186D7005A5402 /* KeychainManager.swift */,
+				FCCBA055295186D7005A5402 /* UserDefaultsManager.swift */,
+			);
+			path = StorageManagers;
+			sourceTree = "<group>";
+		};
+		FCCBA056295186D7005A5402 /* AuthManagers */ = {
+			isa = PBXGroup;
+			children = (
+				FCCBA057295186D7005A5402 /* CustomAuthManager.swift */,
+				FCCBA058295186D7005A5402 /* AuthManager.swift */,
+			);
+			path = AuthManagers;
+			sourceTree = "<group>";
+		};
+		FCCBA059295186D7005A5402 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FCCBA05A295186D7005A5402 /* Constants.swift */,
+				FCCBA05B295186D7005A5402 /* TorusWeb3Utils.swift */,
+				FCCBA05C295186D7005A5402 /* Error.swift */,
+				FCCBA05D295186D7005A5402 /* Extensions.swift */,
+				FCCBA05E295186D7005A5402 /* SolanaAccountAuthenticator.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		FCCBA05F295186D7005A5402 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				FCCBA060295186D7005A5402 /* NetworkHelper.swift */,
+				FCCBA061295186D7005A5402 /* NetworkingClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		FCCBA063295186D7005A5402 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FCCBA064295186D7005A5402 /* TransactionModel.swift */,
+				FCCBA065295186D7005A5402 /* BlockchainEnum.swift */,
+				FCCBA066295186D7005A5402 /* UserModel.swift */,
+				FCCBA067295186D7005A5402 /* ConfigDataModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FCCBA068295186D7005A5402 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FCCBA069295186D7005A5402 /* Preview Assets.xcassets */,
+			);
+			name = "Preview Content";
+			path = "../../../../../Volumes/Dhruv/Torus Wallet/Preview Content";
+			sourceTree = "<group>";
+		};
+		FCCBA06A295186D7005A5402 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				FCCBA06B295186D7005A5402 /* BlockchainManagerProtocol.swift */,
+				FCCBA06C295186D7005A5402 /* AuthManagerProtocol.swift */,
+				FCCBA06D295186D7005A5402 /* BlockChainProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		FCCBA06E295186D7005A5402 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FCCBA06F295186D7005A5402 /* Transaction */,
+				FCCBA075295186D7005A5402 /* Settings */,
+				FCCBA078295186D7005A5402 /* Home */,
+				FCCBA07B295186D7005A5402 /* HelperViews */,
+				FCCBA083295186D7005A5402 /* ContentView.swift */,
+				FCCBA084295186D7005A5402 /* LoadingView.swift */,
+				FCCBA085295186D7005A5402 /* Login */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FCCBA06F295186D7005A5402 /* Transaction */ = {
+			isa = PBXGroup;
+			children = (
+				FCCBA070295186D7005A5402 /* TransferAssetView.swift */,
+				FCCBA071295186D7005A5402 /* ConfirmTransactionView.swift */,
+				FCCBA072295186D7005A5402 /* TransferAssetViewModel.swift */,
+				FCCBA073295186D7005A5402 /* TransactionDoneView.swift */,
+				FCCBA074295186D7005A5402 /* MaxTransactionFeeView.swift */,
+			);
+			path = Transaction;
+			sourceTree = "<group>";
+		};
+		FCCBA075295186D7005A5402 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				FCCBA076295186D7005A5402 /* SettingViewModel.swift */,
+				FCCBA077295186D7005A5402 /* SettingView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		FCCBA078295186D7005A5402 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FCCBA079295186D7005A5402 /* HomeViewModel.swift */,
+				FCCBA07A295186D7005A5402 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FCCBA07B295186D7005A5402 /* HelperViews */ = {
+			isa = PBXGroup;
+			children = (
+				FCCBA07C295186D7005A5402 /* HapticGenerator.swift */,
+				FCCBA07D295186D7005A5402 /* CustomButton.swift */,
+				FCCBA07E295186D7005A5402 /* HelperViews.swift */,
+				FCCBA07F295186D7005A5402 /* LottieView.swift */,
+				FCCBA080295186D7005A5402 /* PopUpView.swift */,
+				FCCBA081295186D7005A5402 /* QRCodeView.swift */,
+				FCCBA082295186D7005A5402 /* UITextView.swift */,
+			);
+			path = HelperViews;
+			sourceTree = "<group>";
+		};
+		FCCBA085295186D7005A5402 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FCCBA086295186D7005A5402 /* LoginHomePageView.swift */,
+				FCCBA087295186D7005A5402 /* LoginMethodSelectionPageVM.swift */,
+				FCCBA088295186D7005A5402 /* LoginMethodSelectionPage.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +511,15 @@
 			dependencies = (
 			);
 			name = CustomAuthTorusWallet;
+			packageProductDependencies = (
+				FCCBA0D5295187A1005A5402 /* CustomAuth */,
+				FCCBA0DB295187D3005A5402 /* web3.swift */,
+				FCCBA0DE295187EB005A5402 /* KeychainSwift */,
+				FCCBA0E129518801005A5402 /* CodeScanner */,
+				FCCBA0E42951881F005A5402 /* TweetNacl */,
+				FCCBA0E729518842005A5402 /* Solana */,
+				FC37DDD029532F6800E935FF /* TorusEd25519Key */,
+			);
 			productName = CustomAuthTorusWallet;
 			productReference = FCCBA0052951866F005A5402 /* CustomAuthTorusWallet.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +592,15 @@
 				Base,
 			);
 			mainGroup = FCCB9FFC2951866F005A5402;
+			packageReferences = (
+				FCCBA0D4295187A1005A5402 /* XCRemoteSwiftPackageReference "customauth-swift-sdk" */,
+				FCCBA0DA295187D3005A5402 /* XCRemoteSwiftPackageReference "web3" */,
+				FCCBA0DD295187EB005A5402 /* XCRemoteSwiftPackageReference "keychain-swift" */,
+				FCCBA0E029518801005A5402 /* XCRemoteSwiftPackageReference "CodeScanner" */,
+				FCCBA0E32951881F005A5402 /* XCRemoteSwiftPackageReference "tweetnacl-swiftwrap" */,
+				FCCBA0E629518842005A5402 /* XCRemoteSwiftPackageReference "Solana" */,
+				FC37DDCF29532F6800E935FF /* XCRemoteSwiftPackageReference "torus-ed25519key-swift" */,
+			);
 			productRefGroup = FCCBA0062951866F005A5402 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,8 +617,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCCBA08E295186D8005A5402 /* DMSans-BoldItalic.ttf in Resources */,
 				FCCBA01029518670005A5402 /* Preview Assets.xcassets in Resources */,
-				FCCBA00D29518670005A5402 /* Assets.xcassets in Resources */,
+				FCCBA093295186D8005A5402 /* Poppins-ExtraLightItalic.ttf in Resources */,
+				FCCBA09A295186D8005A5402 /* Poppins-BlackItalic.ttf in Resources */,
+				FCCBA0D329518727005A5402 /* Assets.xcassets in Resources */,
+				FCCBA097295186D8005A5402 /* Poppins-SemiBoldItalic.ttf in Resources */,
+				FCCBA096295186D8005A5402 /* Poppins-Medium.ttf in Resources */,
+				FCCBA090295186D8005A5402 /* DMSans-Italic.ttf in Resources */,
+				FCCBA08B295186D8005A5402 /* DMSans-Regular.ttf in Resources */,
+				FCCBA09F295186D8005A5402 /* Poppins-Black.ttf in Resources */,
+				FCCBA091295186D8005A5402 /* Poppins-ExtraLight.ttf in Resources */,
+				FCCBA08F295186D8005A5402 /* DMSans-MediumItalic.ttf in Resources */,
+				FCCBA098295186D8005A5402 /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				FCCBA09D295186D8005A5402 /* Poppins-LightItalic.ttf in Resources */,
+				FCCBA095295186D8005A5402 /* Poppins-Light.ttf in Resources */,
+				FCCBA09B295186D8005A5402 /* OFL.txt in Resources */,
+				FCCBA0A3295186D8005A5402 /* Poppins-MediumItalic.ttf in Resources */,
+				FCCBA092295186D8005A5402 /* Poppins-ThinItalic.ttf in Resources */,
+				FCCBA099295186D8005A5402 /* Poppins-ExtraBold.ttf in Resources */,
+				FCCBA09E295186D8005A5402 /* Poppins-Bold.ttf in Resources */,
+				FCCBA0B7295186D8005A5402 /* Preview Assets.xcassets in Resources */,
+				FCCBA0A2295186D8005A5402 /* Poppins-Italic.ttf in Resources */,
+				FCCBA094295186D8005A5402 /* Poppins-BoldItalic.ttf in Resources */,
+				FCCBA0A0295186D8005A5402 /* Poppins-Thin.ttf in Resources */,
+				FCCBA08C295186D8005A5402 /* DMSans-Medium.ttf in Resources */,
+				FCCBA0A1295186D8005A5402 /* Poppins-SemiBold.ttf in Resources */,
+				FCCBA0D1295186D8005A5402 /* Launch Screen.storyboard in Resources */,
+				FCCBA0D0295186D8005A5402 /* Color.xcassets in Resources */,
+				FCCBA09C295186D8005A5402 /* Poppins-Regular.ttf in Resources */,
+				FCCBA08D295186D8005A5402 /* DMSans-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +671,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCCBA00B2951866F005A5402 /* ContentView.swift in Sources */,
-				FCCBA0092951866F005A5402 /* CustomAuthTorusWalletApp.swift in Sources */,
+				FCCBA0BD295186D8005A5402 /* TransferAssetViewModel.swift in Sources */,
+				FCCBA0B0295186D8005A5402 /* NetworkHelper.swift in Sources */,
+				FCCBA0BE295186D8005A5402 /* TransactionDoneView.swift in Sources */,
+				FCCBA0A6295186D8005A5402 /* SolManager.swift in Sources */,
+				FCCBA0BB295186D8005A5402 /* TransferAssetView.swift in Sources */,
+				FCCBA0AA295186D8005A5402 /* AuthManager.swift in Sources */,
+				FCCBA0B9295186D8005A5402 /* AuthManagerProtocol.swift in Sources */,
+				FCCBA0BA295186D8005A5402 /* BlockChainProtocol.swift in Sources */,
+				FCCBA0AC295186D8005A5402 /* TorusWeb3Utils.swift in Sources */,
+				FCCBA0AD295186D8005A5402 /* Error.swift in Sources */,
+				FCCBA0A5295186D8005A5402 /* EthManager.swift in Sources */,
+				FCCBA0C7295186D8005A5402 /* LottieView.swift in Sources */,
+				FCCBA0B2295186D8005A5402 /* CustomAuthTorusWalletApp.swift in Sources */,
+				FCCBA0C0295186D8005A5402 /* SettingViewModel.swift in Sources */,
+				FCCBA0CD295186D8005A5402 /* LoginHomePageView.swift in Sources */,
+				FCCBA0C3295186D8005A5402 /* HomeView.swift in Sources */,
+				FCCBA0C4295186D8005A5402 /* HapticGenerator.swift in Sources */,
+				FCCBA0B3295186D8005A5402 /* TransactionModel.swift in Sources */,
+				FCCBA0CE295186D8005A5402 /* LoginMethodSelectionPageVM.swift in Sources */,
+				FCCBA0A8295186D8005A5402 /* UserDefaultsManager.swift in Sources */,
+				FCCBA0CA295186D8005A5402 /* UITextView.swift in Sources */,
+				FCCBA0CF295186D8005A5402 /* LoginMethodSelectionPage.swift in Sources */,
+				FCCBA0C6295186D8005A5402 /* HelperViews.swift in Sources */,
+				FCCBA0B4295186D8005A5402 /* BlockchainEnum.swift in Sources */,
+				FCCBA0AE295186D8005A5402 /* Extensions.swift in Sources */,
+				FCCBA0A4295186D8005A5402 /* BlockchainManager.swift in Sources */,
+				FCCBA0A9295186D8005A5402 /* CustomAuthManager.swift in Sources */,
+				FCCBA0B1295186D8005A5402 /* NetworkingClient.swift in Sources */,
+				FCCBA0CC295186D8005A5402 /* LoadingView.swift in Sources */,
+				FCCBA0CB295186D8005A5402 /* ContentView.swift in Sources */,
+				FCCBA0C1295186D8005A5402 /* SettingView.swift in Sources */,
+				FCCBA0B5295186D8005A5402 /* UserModel.swift in Sources */,
+				FCCBA0BF295186D8005A5402 /* MaxTransactionFeeView.swift in Sources */,
+				FCCBA0C9295186D8005A5402 /* QRCodeView.swift in Sources */,
+				FCCBA0B8295186D8005A5402 /* BlockchainManagerProtocol.swift in Sources */,
+				FCCBA0C8295186D8005A5402 /* PopUpView.swift in Sources */,
+				FCCBA0BC295186D8005A5402 /* ConfirmTransactionView.swift in Sources */,
+				FCCBA0A7295186D8005A5402 /* KeychainManager.swift in Sources */,
+				FCCBA0B6295186D8005A5402 /* ConfigDataModel.swift in Sources */,
+				FCCBA0C5295186D8005A5402 /* CustomButton.swift in Sources */,
+				FCCBA0AB295186D8005A5402 /* Constants.swift in Sources */,
+				FCCBA0C2295186D8005A5402 /* HomeViewModel.swift in Sources */,
+				FCCBA0AF295186D8005A5402 /* SolanaAccountAuthenticator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,7 +800,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -399,7 +854,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -420,6 +875,7 @@
 				DEVELOPMENT_TEAM = 2Q63NCPY55;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CustomAuthTorusWallet/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +905,7 @@
 				DEVELOPMENT_TEAM = 2Q63NCPY55;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CustomAuthTorusWallet/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -583,6 +1040,103 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FC37DDCF29532F6800E935FF /* XCRemoteSwiftPackageReference "torus-ed25519key-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/torusresearch/torus-ed25519key-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		FCCBA0D4295187A1005A5402 /* XCRemoteSwiftPackageReference "customauth-swift-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/torusresearch/customauth-swift-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		FCCBA0DA295187D3005A5402 /* XCRemoteSwiftPackageReference "web3" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/argentlabs/web3.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.3;
+			};
+		};
+		FCCBA0DD295187EB005A5402 /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/keychain-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		FCCBA0E029518801005A5402 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		FCCBA0E32951881F005A5402 /* XCRemoteSwiftPackageReference "tweetnacl-swiftwrap" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/bitmark-inc/tweetnacl-swiftwrap.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		FCCBA0E629518842005A5402 /* XCRemoteSwiftPackageReference "Solana" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/metaplex-foundation/Solana.Swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FC37DDD029532F6800E935FF /* TorusEd25519Key */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC37DDCF29532F6800E935FF /* XCRemoteSwiftPackageReference "torus-ed25519key-swift" */;
+			productName = TorusEd25519Key;
+		};
+		FCCBA0D5295187A1005A5402 /* CustomAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCCBA0D4295187A1005A5402 /* XCRemoteSwiftPackageReference "customauth-swift-sdk" */;
+			productName = CustomAuth;
+		};
+		FCCBA0DB295187D3005A5402 /* web3.swift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCCBA0DA295187D3005A5402 /* XCRemoteSwiftPackageReference "web3" */;
+			productName = web3.swift;
+		};
+		FCCBA0DE295187EB005A5402 /* KeychainSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCCBA0DD295187EB005A5402 /* XCRemoteSwiftPackageReference "keychain-swift" */;
+			productName = KeychainSwift;
+		};
+		FCCBA0E129518801005A5402 /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCCBA0E029518801005A5402 /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+		FCCBA0E42951881F005A5402 /* TweetNacl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCCBA0E32951881F005A5402 /* XCRemoteSwiftPackageReference "tweetnacl-swiftwrap" */;
+			productName = TweetNacl;
+		};
+		FCCBA0E729518842005A5402 /* Solana */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCCBA0E629518842005A5402 /* XCRemoteSwiftPackageReference "Solana" */;
+			productName = Solana;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FCCB9FFD2951866F005A5402 /* Project object */;
 }
